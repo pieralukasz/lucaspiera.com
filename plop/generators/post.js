@@ -39,7 +39,7 @@ const generator = (plop) => {
     actions: [
       {
         type: "add",
-        path: "app/content/posts/{{slugify title}}.md",
+        path: "app/routes//blog.{{slugify title}}.mdx",
         templateFile: "../templates/post.hbs",
       },
     ],
